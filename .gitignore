@@ -1,0 +1,57 @@
+build.sh
+run.sh
+.ai-history/*
+.ai-scanned-files
+.ai-prompts.md
+.ai-system-instructions.md
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# Node.js generated files
+npm-debug.log
+yarn-error.log
+yarn-debug.log*
+yarn.lock
+package-lock.json
+.pnp.*
+.pnp.js
+
+# Editor generated files
+# Vim
+*.swp
+*.swo
+*.swn
+*.swm
+*.swl
+*.swk
+*.swj
+*.swi
+*.swg
+*.swf
+
+# Neovim
+*.nvim.swap
+*.nvim.swp
+*.nvim.swo
+*.nvim.swn
+*.nvim.swm
+*.nvim.swl
+*.nvim.swk
+*.nvim.swj
+*.nvim.swi
+*.nvim.swg
+
+
+
+
+# Node.js
+node_modules
+dist/
+# Emacs
+*~
+\#*\#
+.\#*
+

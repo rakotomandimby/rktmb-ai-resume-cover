@@ -1,0 +1,112 @@
+# A propos du candidat
+
+- **Nom**: Mihamina RAKOTOMANDIMBY
+- **Email**: mihamina@rktmb.org
+- **Téléphone**: +261 32 99 236 88
+- **Localisation**: Antananarivo, Madagascar
+- **LinkedIn**: [Mihamina RAKOTOMANDIMBY](https://www.linkedin.com/in/mihaminarakotomandimby/)
+- **Disponibilité**: 2 semaines
+
+# Compétences clés
+
+- Direction des développeurs Web utilisant PHP et Typescript dans l'adoption des "best practices"
+- Industrialisation et automatisation de la chaîne de production logicielle (de Devs à Ops, et vice-versa)
+- Réduction des coûts des infrastructures informatique
+
+# Parcours professionnel détaillé
+
+- Consultant IT pour Color Telecom et Tel-On depuis 2025
+    - Architecte d'infrastructure Voix sur IP (VoIP)
+    - Développement de fonctionnalités Asterisk AGI et AMI pour le cœur de réseau IP PBX, en utilisant les langages PHP et Typescript
+    - Architecte d'infrastructure Linux sur serveurs physiques et Cloud (VMWare)
+- Architecte en technologies de l'information chez Intelios depuis août 2020
+    - Diriger l'établissement des convention de codage
+        - Établir les normes de développement logiciel selon les outils et configurations CI/CD (Jenkins)
+        - Former les nouveaux venus aux normes établies
+        - Établir la liste des outils pour les développeurs (WebStorm, PHPStorm, GitHub)
+    - Architecturer et administrer l'infrastructure informatique
+        - Choisir et mettre en place la plateforme de virtualisation (VMWare ESX sur 3 hôtes physiques)
+        - Choisir et mettre en place les outils DevOps (Kubernetes, Jenkins)
+        - Choisir et mettre en place la stratégie de sécurité, sauvegarde et mise à jour
+- Responsable DevOps chez SDWorx Mauritius de novembre 2019 à août 2020
+    - Animer des sessions pour établir et adopter les normes DevOps
+    - Maximiser l'automatisation partout où c'est possible (Ranorex, NewMan)
+    - Migrer des Classic Azure Pipelines vers YAML Azure Pipelines
+    - Développer en C# / .Net Core
+    - Participer à faire de l'entreprise un "Great place to work" (GPTW 2020)
+- Consultant IT indépendant orienté informatique d'entreprise de février 2019 à novembre 2019
+    - Orange Madagascar (Acteur majeur des télécommunications): Chef de projet sur la refonte des applications B2B (Java, Angular, Atlassian forge et CI/CD)
+    - Arawak (Usine textile): Coach pour l'équipe IT (configuration de Jira, reporting)
+    - ATS (Externalisation des processus métiers): Chef de projet sur un outil de gestion de la performance pour environ 1000 collaborateurs (React, Symfony, Jenkins CI/CD)
+    - DevFest Madagascar : Orateur lors des sessions DevFest de 2019 à 2022 organisées par le groupe des développeurs Google à Madagascar
+- Responsable académique de l'ESTI (Ecole supérieure d'informatique) de novembre 2016 à février 2019
+    - Gérer des enseignants en technologies de l'information de niveau doctorat (validation des programmes)
+    - Diriger l'enseignement pour atteindre le niveau requis
+    - Gérer les relations avec les entreprises
+    - Coordonner le système d'information pour refléter la philosophie de l'institut
+- Ingénieur DevOps senior chez Netapsys de janvier 2014 à novembre 2016
+    - Industrialisation de l'administration système
+        - Gestion de configuration CFEngine
+        - Surveillance avec Collectd, Graphite, Sensu
+    - Mise en place de registry Docker & images (Artifactory et Docker Distribution)
+        - Conteneurs d'outils pour dévloppeurs PHP et Java
+        - Packaging CentOS & Debian
+    - Mise en place d'architecture serveur à haute disponibilité
+        - Nginx et PHP-FPM (Magento, Drupal)
+        - Cluster SQL Percona
+    - Support pour environ 400 ingénieurs Java & PHP
+        - Configuration, administration et mise en place de Atlassian Jira & Confluence
+        - Configuration, administration et mise en place de VMware ESX et vCenter
+- Responsable Formation, Recrutement et Développement chez Ideo Neov d'août 2011 à décembre 2013
+    - Membre du comité technique
+    - Gestion de projets (technique et fonctionnel)
+    - CONSULTING
+        - Conseiller en réseaux sociaux d'entreprise
+        - Conseiller en infrastructure Linux
+    - FORMATION : Conduire et superviser les programmes de formation et de développement pour plus de 60 employés concernant :
+        - Gestion du code source (Hg, Git, SVN)
+        - Programmation orientée objet (PHP, Javascript)
+        - Méthodes agiles (Scrum)
+        - Test Driven Development
+        - Design Patterns
+    - RECRUTEMENT
+        - Recrutement d'ingénieurs de haut niveau et de mathématiciens
+        - Formation des nouveaux venus aux outils, méthodes de travail et pratiques internes
+        - Évaluation : mesures, décision.
+- Enseignant à l'Université d'Antananarivo de novembre 2012 à juin 2013
+    - Enseignement des bases de données appliquées à MySQL aux étudiants en Master.
+        - Introduction aux bases de données
+        - Administration des bases de données
+        - Optimisation des requêtes
+- Responsable chez Blueline Business Service de novembre 2010 à août 2011
+    - Support client pour le top 50 des entreprises utilisatrices d'Internet chez le fournisseur Blueline
+    - Mentor technique de l'équipe d'ingénieurs IT
+    - Administration de réseaux à grande échelle.
+    - Gestion commerciale et financière
+        - Identification des profits et des priorités
+        - Évolution des produits
+        - Soin de la clientèle
+    - Transfert de compétences aux membres de l'équipe en croissance.
+- Architecte IT chez Gulfsat Madagascar (Acteur majeur des télécommunications) de juin 2009 à novembre 2010 
+    - Administrateur système et architecte UNIX :
+        - Virtualisation : KVM, LXC et OpenVZ
+        - Stockage : NFS, RAID, LVM
+        - Serveur de messagerie : Postfix, Exim, Courier POP/IMAP
+        - Accounting FreeRADIUS
+        - Base de données : PostGreSQL, MySQL
+        - Annuaire : OpenLDAP
+- Chef de projet chez Vectoris d'août 2008 à mai 2009 
+    - Leader de l'équipe de développeurs.
+    - Production de sites web interactifs codés en
+        - Java, PHP, Python, Perl.
+        - Javascript via jQuery et Mootools
+    - Administrateur système pour des serveurs web dédiés Linux
+- Développeur chez Mixid de septembre 2007 à novembre 2007 (3 mois) :
+    - Interface directe PHP & Javascript avec les tables MySQL
+- Administrateur système, administrateur de bases de données, développeur chez Medical Administrators International, de février 2007 à août 2007 :
+    - Optimisation des requêtes de base de données MySql
+    - Maintenance du code PHP3
+    - Administration de serveur FreeBSD
+- Créateur de templates Joomla chez Edicom de 2007 à 2007 (moins d'un an).
+- Stagiaire chez Nuxeo de juillet 2003 à septembre 2003 (3 mois) :
+    - Compréhension des mécanismes internes du CMS CPS écrit en Python sur Zope.
