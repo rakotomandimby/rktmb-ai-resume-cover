@@ -19,7 +19,7 @@ npm install
 Set the environment variables:
 
 - `OPENAI_API_KEY`: Your OpenAI API key.
-- `GEMINI_API_KEY`: Your Google Gemini API key.
+- `GOOGLEAI_API_KEY`: Your Google AI API key.
 - `AUTH_TOKEN`: A static token used for authentication if you serve this on a public server.
 
 ```bash

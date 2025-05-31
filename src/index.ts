@@ -16,8 +16,8 @@ const envErrors: string[] = [];
 if (!process.env.OPENAI_API_KEY) {
   envErrors.push("OPENAI_API_KEY is not set. OpenAI features may not work.");
 }
-if (!process.env.GEMINI_API_KEY) {
-  envErrors.push("GEMINI_API_KEY is not set. Gemini features may not work.");
+if (!process.env.GOOGLEAI_API_KEY) {
+  envErrors.push("GOOGLEAI_API_KEY is not set. Google AI features may not work.");
 }
 
 const configuredAuthToken = getAuthToken();

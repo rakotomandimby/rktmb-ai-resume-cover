@@ -13,8 +13,8 @@ export function getAPIKey(modelName:string): string {
     else {return process.env["OPENAI_API_KEY"];}
   }
   else if (modelName === "gemini") {
-    if (process.env["GEMINI_API_KEY"] === undefined) {return "";}
-    else {return process.env["GEMINI_API_KEY"];}
+    if (process.env["GOOGLEAI_API_KEY"] === undefined) {return "";}
+    else {return process.env["GOOGLEAI_API_KEY"];}
   }
   else {return "";}
 }
