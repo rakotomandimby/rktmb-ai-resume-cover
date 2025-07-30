@@ -4,7 +4,7 @@
 - **Email**: mihamina@rktmb.org
 - **Téléphone**: +261 32 99 236 88
 - **Localisation**: Antananarivo, Madagascar
-- **LinkedIn**: [Mihamina RAKOTOMANDIMBY](https://www.linkedin.com/in/mihaminarakotomandimby/)
+- **LinkedIn**: https://www.linkedin.com/in/mihaminarakotomandimby/
 - **Disponibilité**: 2 semaines
 
 # Compétences clés
@@ -15,7 +15,11 @@
 
 # Parcours professionnel détaillé
 
-- Consultant IT pour Color Telecom et Tel-On depuis 2025
+- Lead Developer pour LogicRDV de 2025 à aujourd'hui
+    - Direction d'une équipe de 6 développeurs sur une application web de gestion des rendez-vous et des plannings.
+    - Pile technologique: NodeJS avec Typescript, React, MariaDB, Redis et Kafka.
+    - Déploiement sur AWS avec Docker et Kubernetes.
+- Consultant VoIP Asterisk pour Color Telecom et Tel-On depuis 2025
     - Architecte d'infrastructure Voix sur IP (VoIP)
     - Développement de fonctionnalités Asterisk AGI et AMI pour le cœur de réseau IP PBX, en utilisant les langages PHP et Typescript
     - Architecte d'infrastructure Linux sur serveurs physiques et Cloud (VMWare)
