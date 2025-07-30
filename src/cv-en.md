@@ -15,6 +15,10 @@
 
 # Detailed career path
 
+- PHP Developers Performance Manager at Frennly
+    - Develop and implement strategies to improve operational efficiency of 25 PHP developers.
+    - Establish metrics, benchmarks, and goals to monitor and evaluate performance improvement initiatives.
+    - Collaborate with cross-functional teams to design and implement process improvements and best practices.
 - Lead Developer for LogicRDV from 2025 to present
     - Lead a team of 6 developers to build a web application for managing appointments and schedules.
     - NodeJS stack with Typescript, React, MariaDB, Redis and Kafka.

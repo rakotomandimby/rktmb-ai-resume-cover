@@ -15,6 +15,10 @@
 
 # Parcours professionnel détaillé
 
+- Responsable de la performance des développeurs PHP chez Frennly
+    - Développer et mettre en œuvre des stratégies pour améliorer l'efficacité opérationnelle de 25 développeurs PHP.
+    - Établir des indicateurs, des références et des objectifs pour surveiller et évaluer les initiatives d'amélioration des performances.
+    - Collaborer de manière transverse pour améliorer les processus et les pratiques de dévloppement.
 - Lead Developer pour LogicRDV de 2025 à aujourd'hui
     - Direction d'une équipe de 6 développeurs sur une application web de gestion des rendez-vous et des plannings.
     - Pile technologique: NodeJS avec Typescript, React, MariaDB, Redis et Kafka.
