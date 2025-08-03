@@ -27,6 +27,10 @@
     - Architecte d'infrastructure Voix sur IP (VoIP)
     - Développement de fonctionnalités Asterisk AGI et AMI pour le cœur de réseau IP PBX, en utilisant les langages PHP et Typescript
     - Architecte d'infrastructure Linux sur serveurs physiques et Cloud (VMWare)
+- Développeur du plugin Neovim "code-ai.nvim" (https://github.com/rakotomandimby/code-ai.nvim)
+    - Plugin Neovim pour utiliser des modèles d'IA dans l'éditeur Neovim.
+    - Supporte les modèles d'IA OpenAI, Google Gemini et Anthropic.
+    - Provision de contexte avancé pour obtenir des réponses pertinentes des modèles d'IA.
 - Architecte en technologies de l'information chez Intelios depuis août 2020
     - Diriger l'établissement des convention de codage
         - Établir les normes de développement logiciel selon les outils et configurations CI/CD (Jenkins)

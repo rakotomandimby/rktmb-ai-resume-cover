@@ -27,6 +27,10 @@
     - Voice over IP (VoIP) infrastructure architect.
     - Core IP PBX Asterisk AGI and AMI features development, using PHP and Typescript languages.
     - Linux infrastructure architect on both physical servers and Cloud (VMWare).
+- Developer of the "code-ai.nvim" Neovim plugin (https://github.com/rakotomandimby/code-ai.nvim)
+    - A Neovim plugin to use AI models in the Neovim editor.
+    - Supports OpenAI, Google Gemini, and Anthropic AI models.
+    - Strong context management to provide relevant answers from the AI models.
 - Information Technology Architect at Intelios from august 2020 to 2024
     - Drive Coding Standards
         - Establish Coding standards and according CI/CD tools and configuration (Jenkins)
