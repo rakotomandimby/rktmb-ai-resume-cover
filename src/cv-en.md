@@ -23,11 +23,15 @@
     - Lead a team of 6 developers to build a web application for managing appointments and schedules.
     - NodeJS stack with Typescript, React, MariaDB, Redis and Kafka.
     - Deployment on AWS with Docker and Kubernetes.
+- Contributor to the "CopilotChat.nvim" Neovim plugin (https://github.com/CopilotC-Nvim/CopilotChat.nvim)
+    - A Neovim plugin meaning to be the equivalent or better VSCode Github CopilotChat
+    - Iterative improvements and bugfixes
+    - Documentation completion
 - VoIP Asterisk consultant for Color Telecom and Tel-On from 2025 to present
     - Voice over IP (VoIP) infrastructure architect.
     - Core IP PBX Asterisk AGI and AMI features development, using PHP and Typescript languages.
     - Linux infrastructure architect on both physical servers and Cloud (VMWare).
-- Developer of the "code-ai.nvim" Neovim plugin (https://github.com/rakotomandimby/code-ai.nvim)
+- Author of the "code-ai.nvim" Neovim plugin (https://github.com/rakotomandimby/code-ai.nvim)
     - A Neovim plugin to use AI models in the Neovim editor.
     - Supports OpenAI, Google Gemini, and Anthropic AI models.
     - Strong context management to provide relevant answers from the AI models.
