@@ -6,7 +6,7 @@ import { nl2br, getAPIKey, removeMarkdownCodeBlocks } from './utils';
 export async function getGeminiCoverLetterResult(company: string, position: string, job: string, language: string, words: string, searchCompanyInfo: boolean): Promise<string> {
   const genAI = new GoogleGenerativeAI(getAPIKey("gemini"));
   const model = genAI.getGenerativeModel({
-    model : "gemini-2.5-pro-preview-05-06",
+    model : "gemini-2.5-pro",
     systemInstruction: getSystemInstructionCoverLetter(company, job, words, language, searchCompanyInfo)
   });
   const prompt = getPromptCoverLetter(language, company, position, words);
