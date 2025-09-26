@@ -19,7 +19,7 @@ export async function getGeminiCoverLetterResult(company: string, position: stri
 export async function getGeminiCVResult(jobDescription: string, position: string, language: string): Promise<string> {
   const genAI = new GoogleGenerativeAI(getAPIKey("gemini"));
   const model = genAI.getGenerativeModel({
-    model: "gemini-2.5-pro-preview-05-06",
+    model: "gemini-2.5-pro",
     systemInstruction: getSystemInstructionCV(jobDescription, language)
   });
   const prompt = getPromptCV(language, jobDescription, position);

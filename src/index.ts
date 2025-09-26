@@ -118,32 +118,55 @@ app.post('/', csrfProtection, async (req: Request, res: Response) => {
     });
   }
 
-  try {
-    const geminiCV = await getGeminiCVResult(job, position, language);
-    const openAICV = await getOpenAICVResult(job, position, language);
-    const geminiCoverLetter = await getGeminiCoverLetterResult(companyForProcessing, position, job, language, words, searchCompanyInfo);
-    const openAICoverLetter = await getOpenAICoverLetterResult(companyForProcessing, position, job, language, words, searchCompanyInfo);
+  // Individual error handling for each AI model
+  const results = {
+    geminiCV: "Processing...",
+    openAICV: "Processing...",
+    geminiCoverLetter: "Processing...",
+    openAICoverLetter: "Processing..."
+  };
 
-    res.render('index', {
-      envErrors: envErrors,
-      geminiCVResult: geminiCV,
-      openAICVResult: openAICV,
-      geminiCoverLetterResult: geminiCoverLetter,
-      openAICoverLetterResult: openAICoverLetter,
-      csrfToken: (req as any).csrfToken(), // Pass token for the rendered page (though form is usually gone on success)
-      formError: null,
-    });
+  // Process Gemini CV with individual error handling
+  try {
+    results.geminiCV = await getGeminiCVResult(job, position, language);
   } catch (error) {
-    console.error("Error processing request:", error);
-    res.status(500).render('index', {
-      ...baseRenderOptionsForPost, // This includes csrfToken
-      formError: "An unexpected error occurred while processing your request.",
-      geminiCVResult: "Error during generation.",
-      openAICVResult: "Error during generation.",
-      geminiCoverLetterResult: "Error during generation.",
-      openAICoverLetterResult: "Error during generation."
-    });
+    console.error("Error with Gemini CV generation:", error);
+    results.geminiCV = `<div class="alert alert-danger">Error generating CV with Gemini: ${error instanceof Error ? error.message : 'Unknown error occurred'}</div>`;
   }
+
+  // Process OpenAI CV with individual error handling
+  try {
+    results.openAICV = await getOpenAICVResult(job, position, language);
+  } catch (error) {
+    console.error("Error with OpenAI CV generation:", error);
+    results.openAICV = `<div class="alert alert-danger">Error generating CV with OpenAI: ${error instanceof Error ? error.message : 'Unknown error occurred'}</div>`;
+  }
+
+  // Process Gemini Cover Letter with individual error handling
+  try {
+    results.geminiCoverLetter = await getGeminiCoverLetterResult(companyForProcessing, position, job, language, words, searchCompanyInfo);
+  } catch (error) {
+    console.error("Error with Gemini Cover Letter generation:", error);
+    results.geminiCoverLetter = `Error generating Cover Letter with Gemini: ${error instanceof Error ? error.message : 'Unknown error occurred'}`;
+  }
+
+  // Process OpenAI Cover Letter with individual error handling
+  try {
+    results.openAICoverLetter = await getOpenAICoverLetterResult(companyForProcessing, position, job, language, words, searchCompanyInfo);
+  } catch (error) {
+    console.error("Error with OpenAI Cover Letter generation:", error);
+    results.openAICoverLetter = `Error generating Cover Letter with OpenAI: ${error instanceof Error ? error.message : 'Unknown error occurred'}`;
+  }
+
+  res.render('index', {
+    envErrors: envErrors,
+    geminiCVResult: results.geminiCV,
+    openAICVResult: results.openAICV,
+    geminiCoverLetterResult: results.geminiCoverLetter,
+    openAICoverLetterResult: results.openAICoverLetter,
+    csrfToken: (req as any).csrfToken(), // Pass token for the rendered page (though form is usually gone on success)
+    formError: null,
+  });
 });
 
 // CSRF error handler middleware
