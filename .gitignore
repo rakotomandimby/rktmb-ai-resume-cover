@@ -1,6 +1,5 @@
 build.sh
 run.sh
-.ai-history/*
 .ai-scanned-files
 .ai-prompts.md
 .ai-system-instructions.md
