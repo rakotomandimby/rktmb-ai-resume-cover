@@ -219,7 +219,7 @@ app.use((err: any, req: Request, res: Response, next: NextFunction) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server started on port ${port}`);
+  console.log(`Server started on http://localhost:${port}`);
   if (envErrors.length > 0) {
     console.warn('--- Configuration Issues Detected ---');
     envErrors.forEach((err) => console.warn(`- ${err}`));
