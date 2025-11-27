@@ -15,7 +15,11 @@
 
 # Parcours professionnel détaillé
 
-- Responsable de la performance des développeurs PHP chez Frennly
+- Directeur des systèmes d'information chez Inviso Group depuis novembre 2025
+    - Superviser la stratégie informatique et l'infrastructure de l'entreprise afin d'assurer son alignement avec les objectifs commerciaux.
+    - Diriger une équipe de professionnels de l'informatique pour mettre en œuvre et maintenir des solutions technologiques qui améliorent l'efficacité opérationnelle.
+    - Piloter les configurations ERP Sage, comptabilité, gestion des ressources humaines et business intelligence pour uniformiser le paramétrage sur les différentes sociétés du groupe.
+- Responsable de la performance des développeurs PHP chez Frennly de février 2025 à décembre 2025
     - Développer et mettre en œuvre des stratégies pour améliorer l'efficacité opérationnelle de 25 développeurs PHP.
     - Établir des indicateurs, des références et des objectifs pour surveiller et évaluer les initiatives d'amélioration des performances.
     - Collaborer de manière transverse pour améliorer les processus et les pratiques de dévloppement.

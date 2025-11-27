@@ -15,7 +15,11 @@
 
 # Detailed career path
 
-- PHP Developers Performance Manager at Frennly
+- Chief Information Officer at Inviso Group from november 2025 to present
+    - Oversee the company's IT strategy and infrastructure to ensure alignment with business goals.
+    - Lead a team of IT professionals to implement and maintain technology solutions that enhance operational efficiency.
+    - Lead Sage ERP configurations, accounting, human resources management and business intelligence to uniform the setup across the different companies of the group.
+- PHP Developers Performance Manager at Frennly fron february 2025 december 2025
     - Develop and implement strategies to improve operational efficiency of 25 PHP developers.
     - Establish metrics, benchmarks, and goals to monitor and evaluate performance improvement initiatives.
     - Collaborate with cross-functional teams to design and implement process improvements and best practices.

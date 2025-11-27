@@ -3,10 +3,12 @@ import { getSystemInstructionCoverLetter, getSystemInstructionCV } from './syste
 import { getPromptCoverLetter, getPromptCV } from './prompt';
 import { nl2br, getAPIKey, removeMarkdownCodeBlocks } from './utils';
 
+const model = 'gemini-3-pro-preview';
+
 export async function getGeminiCoverLetterResult(company: string, position: string, job: string, language: string, words: string, searchCompanyInfo: boolean): Promise<string> {
   const genAI = new GoogleGenerativeAI(getAPIKey("gemini"));
   const model = genAI.getGenerativeModel({
-    model : "gemini-2.5-pro",
+    model : model, 
     systemInstruction: getSystemInstructionCoverLetter(company, job, words, language, searchCompanyInfo)
   });
   const prompt = getPromptCoverLetter(language, company, position, words);
@@ -19,7 +21,7 @@ export async function getGeminiCoverLetterResult(company: string, position: stri
 export async function getGeminiCVResult(jobDescription: string, position: string, language: string): Promise<string> {
   const genAI = new GoogleGenerativeAI(getAPIKey("gemini"));
   const model = genAI.getGenerativeModel({
-    model: "gemini-2.5-pro",
+    model: model,
     systemInstruction: getSystemInstructionCV(jobDescription, language)
   });
   const prompt = getPromptCV(language, jobDescription, position);
